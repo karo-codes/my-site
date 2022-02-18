@@ -1,0 +1,182 @@
+/* This CSS file will need to be added to the styling of
+your web pages for the styles to be rendered. */
+
+/*
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto Serif', sans-serif;
+font-family: 'Share Tech', sans-serif;
+
+something weird and crazy for hte I'm Tom font.
+two normal fonts for body and h2/h3
+*/
+
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 200%;
+  color: #FFAC41;
+  background: #000000;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 10px 10px 10px 10px;
+  font-family: 'Share Tech', sans-serif;
+  color: #FF1E56;
+
+}
+
+h2 {
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 2.5rem;
+  color: #FF1E56;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 2rem;
+  color: #FF1E56;
+}
+
+p {
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 2rem;
+  color: #FFAC41;
+}
+
+a {
+  color: #FFAC41;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #FFAC41;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+    padding: 40px;
+  }
+
+.top-container {
+  background-color: #000000;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 100px;
+  background-color: #323232;
+}
+
+.bottom-container {
+  background-color: #000000;
+  position: relative;
+  font-size: 1rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contact-me {
+  position: relative;
+  width: 50%;
+  margin: auto auto 100px auto;
+}
+
+/*
+.bottom-cloud {
+  position: absolute;
+}
+*/
+/* .top-cloud {
+  position: absolute;
+  right: 300px;
+}
+*/
+/*.watashi {
+    position: absolute;
+    right: 550px;
+}
+*/
+/*.mirai {
+    position: relative;
+    right: 150px;
+}*/
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.pika-img {
+  border-radius: 50%;
+}
+
+.teacher-img {
+  width: 25%;
+  float: left;
+  padding: 30px;
+  max-width:100%;
+  height:auto;
+  background-color: #323232;
+}
+
+.computer-img {
+
+  width: 25%;
+  float: right;
+  padding: 30px;
+  max-width:100%;
+  height:auto;
+  background: #323232;
+}
+
+.jp-img {
+    width: 25%;
+    float: left;
+    padding: 30px;
+    max-width:100%;
+    height:auto;
+}
+
+.copyright {
+  color: #FF1E56;
+  font-size: 1rem;
+}
+
+.btn {
+  background: #FF1E56;
+  background-image: -webkit-linear-gradient(top, #FF1E56, #FF1E56);
+  background-image: -moz-linear-gradient(top, #FF1E56, #FF1E56);
+  background-image: -ms-linear-gradient(top, #FF1E56, #FF1E56);
+  background-image: -o-linear-gradient(top, #FF1E56, #FF1E56);
+  background-image: linear-gradient(to bottom, #FF1E56, #FF1E56);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #00000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFAC41;
+  background-image: -webkit-linear-gradient(top, #FFAC41, #FF1E56);
+  background-image: -moz-linear-gradient(top, #FFAC41, #FF1E56);
+  background-image: -ms-linear-gradient(top, #FFAC41, #FF1E56);
+  background-image: -o-linear-gradient(top, #FFAC41, #FF1E56);
+  background-image: linear-gradient(to bottom, #FFAC41, #FF1E56);
+  text-decoration: none;
+}
